@@ -1,8 +1,12 @@
+:root {
+    --white-text: #F8FCFF;
+}
+
 body {
     font-family: "Montserrat", "Arial", sans-serif;
-    background: #F8FCFF;
+    background: var(--white-text);
     color: #25282B;
-    line-height: 125%;
+    line-height: calc(20px / 16px);
 }
 
 .container {
@@ -49,7 +53,7 @@ body {
     position: relative;
     padding: 120px 0;
 
-    color: #F8FCFF;
+    color: var(--white-text);
 }
 
 .hero__inner {
@@ -61,7 +65,7 @@ body {
 .hero__title {
     margin-bottom: 30px;
 
-    color: #F8FCFF;
+    color: var(--white-text);
     font-size: 52px;
     font-weight: 600;
     line-height: 1.5;
@@ -72,7 +76,7 @@ body {
     margin-bottom: 15px;
     align-items: center;
 
-    color: #F8FCFF;
+    color: var(--white-text);
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
@@ -128,6 +132,7 @@ body {
 
     color: #1D6FB6;
     font-weight: 500;
+    line-height: calc(20px / 16px);
 
     transition: all .5s;
 }
@@ -135,7 +140,7 @@ body {
 .button:hover {
     background: #83ADD3;
     
-    color: #F8FCFF;
+    color: var(--white-text);
 }
 
 /* --------------------------------------- */
@@ -234,7 +239,7 @@ body {
     height: 100%;
     background-color: #1D6FB6B2;
 
-    color: #F8FCFF;
+    color: var(--white-text);
 
     transform: translateY(100%);
     opacity: 0;
@@ -267,7 +272,7 @@ body {
     top: 12%;
     left: 0;
     border-radius: 0 100px 100px 0;
-    background: #F8FCFF;
+    background: var(--white-text);
     min-width: 33.9%;
     padding: 18px 15px;
     color: #1D6FB6;
@@ -320,5 +325,5 @@ body {
     align-items: center;
     gap: 10px;
 
-    color: #F8FCFF;
+    color: var(--white-text);
 }
